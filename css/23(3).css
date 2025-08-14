@@ -1,0 +1,83 @@
+@charset "utf-8" ;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 기본세팅 end */
+
+.section-01{
+    background: url(../img/배경23.png) center center / cover no-repeat; 
+     padding: 164px 0 281px; 
+    
+    
+}
+.section-01 .title{
+    text-align: center;
+    margin-bottom: 65px;
+}
+.section-01 .title h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 15px;
+}
+.section-01 .title p{
+    font-size: 16px;
+    color: white;
+}
+
+.section-01 .list{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.section-01 .list .item{
+    width: 464px;
+    height: 340px;
+    background-color: white;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 40px;
+    align-items: center;
+    padding: 0 25px;
+
+}
+.section-01 .list .item img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.section-01 .list .item .text strong {
+    background-color: #d3785d;
+    height: 28px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 12px;
+    line-height: 28px;
+    border-radius: 20px;
+    margin-bottom: 49px;
+}
+
+.section-01 .list .item .text_title h2{
+    margin-bottom: 10px;
+}
+
+.section-01 .list .item .text_title p{
+    font-size: 14px;
+}

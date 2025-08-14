@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 기본설정 end */
+ .allall
+.all{
+   
+    
+    padding: 164px 0 281px;
+    background: url('../img/배경23.png') center center / cover no-repeat;
+}
+
+
+.top{
+    color: white;
+    text-align: center;
+    
+   
+    
+}
+.all .top h3{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.all .top p{
+    font-size: 16px;
+    margin-bottom: 65px;
+}
+
+.all .content{
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1440px;
+    
+    
+    
+}
+
+.all .content .item{
+    width: 464px;
+    height: 340px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.all .content .item img{
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    margin-right: 40px;
+}
+.all .content .item .text{
+    width: 205px;
+    height: 140px;
+    
+    
+}
+
+.all .content .item .text p{
+    font-size: 14px;
+    width: 71px;
+    height: 28px;
+    background-color:#d3785d;     
+    border-radius: 30px;
+    text-align: center;  
+    line-height: 28px;
+    color: white ;
+    font-weight: 200;
+    margin-bottom: 49px;
+}
+.all .content .item .text .text2{
+    display: flex;
+    flex-wrap: wrap; 
+    
+    
+}
+
+.all .content .item .text .text2 strong{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.all .content .item .text .text2 span{
+    font-size: 14px;
+} 
+
+
+

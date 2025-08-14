@@ -1,0 +1,151 @@
+@charset "utf-8" ;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+/* 기본설정 end */
+
+ section{
+    margin: 50px 0;
+    padding: 50px;
+    background-color: antiquewhite;
+ }
+
+ section h2{
+    margin-bottom: 40px;}
+ 
+ section .list{
+    background-color: aqua;
+ }
+
+ section .list .item{
+    background-color: blueviolet;
+    border: 1px solid #000 ;
+ }
+
+ /* section 설정 end */
+
+.class-01 .list{
+    display: flex;
+    justify-content: space-evenly;
+    /* 대체 center , flex-end , flex-start, space-around, space-evenly */
+    
+}
+ 
+ /* .class-01 end */
+ .class-02 .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;/* flex-start,flex-end */
+ }
+
+ .class-02 .list .item:first-child{
+    height: 300px;
+ }/* 
+  .class-02 .list .item:nth-child(2){
+    height: 200px;
+  }
+  .class-02 .list .item:nth-child(3){
+    height: 100px;
+  } */
+  
+  /* class.02 end */
+
+  .class-03 .list{
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    /*  center > flex-end , flex-start, space-around, 
+        space-evenly, space-between */
+  }
+
+  .class-03 .list .item{
+    width: 100%;
+  }
+
+ /* .class-03 end */
+
+ .class-04 .list{
+    display: flex;
+ }
+
+ .class-04 .list .item:first-child{
+    order: 1;
+ }
+
+  .class-04 .list .item:last-child{
+    order: -2;
+  }
+
+  /* class-04 end */
+  .class-05 .list {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    /* justify-content: 수직(세로 정렬)
+    align-content: 수평(가로 정렬) */
+  
+  }
+
+  /* .cj start */
+  .cj{
+    width: 350px;
+    height: 450px;
+    background-color: aquamarine;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+  }
+
+  .cj strong{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color: rgb(156, 231, 221);
+  }
+
+   .cj2 {
+    width: 150px;
+    height: 450px;
+    padding: 30px;
+    background-color: rgb(187, 227, 214);
+    flex-wrap: wrap;
+    display: flex;
+    align-content: space-between;
+    
+    
+
+  }
+
+  .cj2 strong{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color: rgb(156, 231, 221);
+  }
